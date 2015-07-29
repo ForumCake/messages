@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<addon addon_id="Cake_Messages" title="Cake\Messages" version_string="1.0.0 Alpha 2" version_id="1000031" url="https://forumcake.com/" install_callback_class="Cake\Messages\Install_Controller" install_callback_method="install" uninstall_callback_class="Cake\Messages\Install_Controller" uninstall_callback_method="uninstall">
+<addon addon_id="Cake_Messages" title="Cake\Messages" version_string="1.0.0 Alpha 3" version_id="1000032" url="https://forumcake.com/" install_callback_class="Cake\Messages\Install_Controller" install_callback_method="install" uninstall_callback_class="Cake\Messages\Install_Controller" uninstall_callback_method="uninstall">
   <admin_navigation/>
   <admin_permissions/>
   <admin_style_properties/>
@@ -18,9 +18,15 @@
       <relation group_id="cake" display_order="1"/>
     </option>
   </optiongroups>
-  <permissions/>
+  <permissions>
+    <permission_groups/>
+    <permissions/>
+    <interface_groups/>
+  </permissions>
   <phrases>
     <phrase title="cake_messages" version_id="1000030" version_string="1.0.0 Alpha 1"><![CDATA[Messages]]></phrase>
+    <phrase title="cake_messages_allowTabs" version_id="1000032" version_string="1.0.0 Alpha 3"><![CDATA[Allow Tabs]]></phrase>
+    <phrase title="cake_messages_allowTabs_desc" version_id="1000032" version_string="1.0.0 Alpha 3"><![CDATA[Adds the ability to use/paste tabs into the editor.]]></phrase>
     <phrase title="cake_messages_counts" version_id="1000030" version_string="1.0.0 Alpha 1"><![CDATA[Counts]]></phrase>
     <phrase title="cake_messages_counts_desc" version_id="1000030" version_string="1.0.0 Alpha 1"><![CDATA[Counts the number of words and characters in messages.]]></phrase>
     <phrase title="cake_messages_images" version_id="1000030" version_string="1.0.0 Alpha 1"><![CDATA[Images]]></phrase>
