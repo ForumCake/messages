@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<addon addon_id="Cake_Messages" title="Cake\Messages" version_string="1.0.0 Alpha 3" version_id="1000032" url="https://forumcake.com/" install_callback_class="Cake\Messages\Install_Controller" install_callback_method="install" uninstall_callback_class="Cake\Messages\Install_Controller" uninstall_callback_method="uninstall">
+<addon addon_id="Cake_Messages" title="Cake\Messages" version_string="1.0.0 Alpha 4" version_id="1000033" url="https://forumcake.com/" install_callback_class="Cake\Messages\Install_Controller" install_callback_method="install" uninstall_callback_class="Cake\Messages\Install_Controller" uninstall_callback_method="uninstall">
   <admin_navigation/>
   <admin_permissions/>
   <admin_style_properties/>
@@ -12,7 +12,7 @@
   <email_template_modifications/>
   <optiongroups>
     <option option_id="cake_messages_modules" edit_format="callback" data_type="array" can_backup="1">
-      <default_value>a:4:{s:6:"Counts";i:1;s:6:"Images";i:1;s:10:"Permalinks";i:1;s:8:"Spelling";i:1;}</default_value>
+      <default_value>a:5:{s:9:"AllowTabs";i:1;s:6:"Counts";i:1;s:6:"Images";i:1;s:10:"Permalinks";i:1;s:8:"Spelling";i:1;}</default_value>
       <edit_format_params>Cake\Option_Explain::render</edit_format_params>
       <sub_options>*</sub_options>
       <relation group_id="cake" display_order="1"/>
